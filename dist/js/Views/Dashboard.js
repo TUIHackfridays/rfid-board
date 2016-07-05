@@ -11,6 +11,9 @@ define (
 			render: function ()
 			{
 
+				// Remove monitor token
+				window.localStorage.removeItem ('pingtoken');
+				
 				// Build Pageview
 				this.$el.html (Mustache.render (Templates.pageview, {'title' : this.title}));
 
@@ -30,7 +33,7 @@ define (
 
 				// Users
 				grid = (new UsersView()).usersgrid ();
-				var userslist = new ListPanel ({title: 'Users', grid: grid, addNew: {required: grid.collection.required}});
+				var userslist = new ListPanel ({title: 'People', grid: grid, addNew: {required: grid.collection.required}});
 				this.appendPanel (userslist, 6);
 
 				grid.collection.on('newuser:save', function() {

@@ -1,4 +1,38 @@
 /*
+ *	Bluescreen
+ */
+#bluescreen {
+	position: fixed;
+	left: 0; right: 0; top: 0; bottom: 0;
+	z-index: 999;
+	background: #0dccdd;
+	
+	h3	 {
+		width: 100%;
+		margin-top: 220px;
+		margin-bottom: 40px;
+		text-align: center;
+		font-weight: 300;
+		font-size: 32px;
+		color: white;
+	}
+	
+	h1	{
+		width: 100%;
+		margin: -10px 0 0;
+		text-align: center;
+		font-size: 142px;
+		color: white;
+	}
+	
+	img	{
+		display: block;
+		margin: 100px auto 0;
+	}
+}
+
+
+/*
  *	Global
  *	Overrides
  */
@@ -44,8 +78,5 @@ body.dashboard {
 		width: 100%; border: 0; overflow: hidden;
 	}
 }
-
-
-
 
 

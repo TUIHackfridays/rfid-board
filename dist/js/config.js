@@ -1,5 +1,5 @@
 define({
-  appid: 'oauth2577626e448a411.66038635',
+  appid: 'oauth2577626e448a411.66038689',
   appname: 'TUI R.F.I.D. Board',
   apiversion: '1',
   apiurl: 'http://api.rfid.tuihackfridays.local/',

@@ -6,7 +6,7 @@ define (
 
     var UsersView = Pageview.extend(
     {
-      title : "Users",
+      title : "People",
 
       fullgrid: [
         { name: "id", label: "ID", editable: false,  cell: "string"},
